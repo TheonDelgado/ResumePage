@@ -1,0 +1,318 @@
+﻿@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+ <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Theon Delgado</h1>
+      <p>I'm a <span class="typed" data-typed-items="Web Developer, Designer, Indie Game Developer, 3D Illustrator"></span></p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="margin-bottom: 150px;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>@Model.AboutDescription</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Web Developer &amp; Game Designer</h3>
+            <p class="fst-italic">
+              Self-taught student through resources such as Udemy.com, TheOdinProject.com, Codeacademy.com, and more. 
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>31 March 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>www.github.com/theondelgado</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>313-515-2087</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Detroit, Michigan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Certifications:</strong> <span>C#, Java</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>delgado_theon@yahoo.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>I have spent a substantial amount of time acquiring the skills to become a developer. Here are the skills I have acquired in my time.</p>
+        </div>
+
+        <div class="row skills-content" style="justify-content: space-around;">
+
+          <div class="col-lg-3">
+            
+            <ul>
+              <li>C#</li>
+              <li>Javascript</li>
+              <li>SQL</li>
+              <li>HTML/CSS</li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-3">
+
+            <ul>
+              <li>ASP.NET MVC</li>
+              <li>REST APIs</li>
+              <li>Git</li>
+              <li>Visual Studio/Visual Studio Code</li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Theon Delgado</h4>
+              <p><em>@Model.ResumeSummary</em></p>
+              <ul>
+                <li>Detroit, Michigan</li>
+                <li>313-515-2087</li>
+                <li>delgado_theon@yahoo.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Certifications from Mosh Hammedani</h4>
+              <h5>2021</h5>
+              <p><em>Udemy.com</em></p>
+              <p>Learned C# through online programming courses taught by well-known instructor Mosh Hammedani. Learned how to build, debug, and publish basic C# projects which I then used the knowledge of for more advanced projects.</p>
+            </div>
+            <div class="resume-item">
+              <h4>2D &amp; 3D Junior Game Developer</h4>
+              <h5>2021-2022</h5>
+              <p><em>Gamedev.tv</em></p>
+              <p>Learned how to use the Unity Engine to create video game experiences. Applied my knowledge of C# programming and expanded on my knowledge using design patterns such as State Machines and Behavior Trees to influence and direct enemy AI.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Target Team Member</h4>
+              <h5>2014-2020</h5>
+              <p><em>Dearborn, Michigan</em></p>
+              <ul>
+                <li>Lead several departments in sales orders and guest service satisfaction.</li>
+                <li>Awarded for outstanding customer service skills on several occasions.</li>
+                <li>Maintained relationships with guests to ensure quality of service</li>
+                <li>Performed various duties around the store ranging from cashier duties to stocking shelves.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>UGM Surfaces</h4>
+              <h5>2022</h5>
+              <p><em>Royal Oak, Michigan</em></p>
+              <ul>
+                <li>Maintained relationships with customers to drive sales</li>
+                <li>Managed inventory reports and data analysis of sales.</li>
+                <li>Showcased various products on sale at the company warehouse.</li>
+                <li>Contributed to a new design pattern that was used by the company regarding inventory management of samples.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-console">C# Console</li>
+              <li data-filter=".filter-javascript">Javascript</li>
+              <li data-filter=".filter-web">ASP.NET MVC</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-console">
+            <div class="portfolio-wrap">
+              <img src="~/img/portfolio/coding.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Coding Time Tracking Application</h4>
+                <p>C# Console App</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/TheonDelgado/CodingTracker" target="_blank" title="Source Code"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-console">
+            <div class="portfolio-wrap">
+              <img src="~/img/portfolio/Flashcards.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Flashcards Application</h4>
+                <p>C# Console App</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/TheonDelgado/Flashcards" target="_blank" title="Source Code"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-javascript">
+            <div class="portfolio-wrap">
+              <img src="~/img/portfolio/door.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Chore Door Game</h4>
+                <p>Javascript Application</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/TheonDelgado/ChoreDoor" target="_blank" title="Source Code"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1 justify-content-between">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Detroit, Michigan</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>delgado_theon@yahoo.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>313-515-2087</p>
+              </div>
+
+            </div>
+
+          </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Brandon Johnson</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
