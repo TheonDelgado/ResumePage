@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sf3fiTZsxBeQOVsBs44gYzzYJu8eS62+VTXmU7IdXXs=",
+  "Hash": "HiucarPb+t+2YWAGBVTMMjryWcVyOkjHnQvng7XRwtQ=",
   "Source": "ResumePage",
   "BasePath": "_content/ResumePage",
   "Mode": "Default",
@@ -170,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\img\\portfolio\\coding.png"
     },
     {
+      "Identity": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\dollar.png",
+      "SourceId": "ResumePage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\",
+      "BasePath": "_content/ResumePage",
+      "RelativePath": "img/portfolio/dollar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\portfolio\\dollar.png"
+    },
+    {
       "Identity": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\door.png",
       "SourceId": "ResumePage",
       "SourceType": "Discovered",
@@ -202,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\portfolio\\Flashcards.png"
+    },
+    {
+      "Identity": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\store.png",
+      "SourceId": "ResumePage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\",
+      "BasePath": "_content/ResumePage",
+      "RelativePath": "img/portfolio/store.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\portfolio\\store.png"
     },
     {
       "Identity": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\profile-img.jpg",

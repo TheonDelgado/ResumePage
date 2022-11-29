@@ -37,8 +37,16 @@
       "PackagePath": "staticwebassets\\img\\portfolio\\coding.png"
     },
     {
+      "Id": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\dollar.png",
+      "PackagePath": "staticwebassets\\img\\portfolio\\dollar.png"
+    },
+    {
       "Id": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\door.png",
       "PackagePath": "staticwebassets\\img\\portfolio\\door.png"
+    },
+    {
+      "Id": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\portfolio\\store.png",
+      "PackagePath": "staticwebassets\\img\\portfolio\\store.png"
     },
     {
       "Id": "C:\\Users\\meowm\\Github\\ResumePage\\wwwroot\\img\\profile-img.jpg",
